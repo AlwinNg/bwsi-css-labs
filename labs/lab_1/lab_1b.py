@@ -54,6 +54,7 @@ def request_sanitized_string(prompt: str) -> str:
             return string
         except ValueError:
             print("Invalid input. Please enter a valid String.")
+            print("invalid")
 
 def main():
     
@@ -71,3 +72,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
